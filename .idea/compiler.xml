@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chatbot-application" />
+        <module name="chatbot-infrastructure" />
+        <module name="chatbot-domain" />
+        <module name="chatbot (1) (com.hjp.chatbot)" />
+        <module name="chatbot-interfaces" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chatbot (1) (com.hjp.chatbot)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="chatbot-application" options="-parameters" />
+      <module name="chatbot-domain" options="-parameters" />
+      <module name="chatbot-infrastructure" options="-parameters" />
+      <module name="chatbot-interfaces" options="-parameters" />
+    </option>
+  </component>
+</project>
