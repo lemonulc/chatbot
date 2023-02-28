@@ -72,7 +72,11 @@
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>com.hjp.chatbot</groupId>
+            <artifactId>chatbot-domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
